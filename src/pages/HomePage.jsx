@@ -55,7 +55,7 @@ const HomePage = props => {
             <p>{user?.campus}</p>
          
             <p className="field">Course</p>
-            <p>{user?.campus}</p>
+            <p>{user?.course}</p>
          
             <button className="logOutButton" onClick={logOutUser}>Log out</button>
         </div>}
